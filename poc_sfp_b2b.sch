@@ -98,37 +98,23 @@ Connection ~ 6850 2850
 Wire Wire Line
 	6850 2850 6850 3200
 $Comp
-L Device:Q_PMOS_DGS Q101
-U 1 1 5F4B667B
-P 2350 2800
-F 0 "Q101" V 2692 2800 50  0000 C CNN
-F 1 "Q_PMOS_DGS" V 2601 2800 50  0000 C CNN
-F 2 "Package_SO:PowerPAK_SO-8_Single" H 2550 2900 50  0001 C CNN
-F 3 "~" H 2350 2800 50  0001 C CNN
-	1    2350 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector:Barrel_Jack J101
 U 1 1 5F4B88CE
 P 1300 2800
 F 0 "J101" H 1357 3125 50  0000 C CNN
 F 1 "Barrel_Jack" H 1357 3034 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 1350 2760 50  0001 C CNN
-F 3 "~" H 1350 2760 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1350 2760 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/additional/Gravitech_CON_SOCJ_2155.jpg" H 1350 2760 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Gravitech/CON-SOCJ-2155?qs=fkzBJ5HM%252BdCcpvFQyQZHtA%3D%3D" H 1300 2800 50  0001 C CNN "Mouser Link"
+F 5 " 992-CON-SOCJ-2155 " H 1300 2800 50  0001 C CNN "Mouser Part Number"
+F 6 "CON-SOCJ-2155" H 1300 2800 50  0001 C CNN "Part Number"
 	1    1300 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 2700 2150 2700
-Wire Wire Line
 	1600 2900 1800 2900
 Wire Wire Line
 	1800 2900 1800 3450
-Wire Wire Line
-	1800 3450 2350 3450
-Wire Wire Line
-	2350 3450 2350 3000
 $Comp
 L power:GND #PWR0101
 U 1 1 5F4BAD78
@@ -151,11 +137,12 @@ F 0 "U101" H 4250 4231 50  0000 C CNN
 F 1 "TPS62142" H 4250 4140 50  0000 C CNN
 F 2 "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias" H 4400 3100 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/TPS62140.pdf" H 4250 3550 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/TPS62140ARGTR?qs=jGqriC4rmgu3kOXNaMklag%3D%3D" H 4250 3550 50  0001 C CNN "Mouser Link"
+F 5 "595-TPS62140ARGTR" H 4250 3550 50  0001 C CNN "Mouser Part Number"
+F 6 "TPS62140ARGTR" H 4250 3550 50  0001 C CNN "Part Number"
 	1    4250 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 2700 3200 2700
 Wire Wire Line
 	4150 2700 4150 3050
 Wire Wire Line
@@ -177,7 +164,10 @@ P 3200 3100
 F 0 "C101" H 3086 3146 50  0000 R CNN
 F 1 "10uF" H 3086 3055 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3238 2950 50  0001 C CNN
-F 3 "~" H 3200 3100 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/585/MLCC-1837944.pdf" H 3200 3100 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL32A106KAULNNE?qs=X6jEic%2FHinC8rXXgzyw98Q%3D%3D" H 3200 3100 50  0001 C CNN "Mouser Link"
+F 5 "187-CL32A106KAULNNE" H 3200 3100 50  0001 C CNN "Mouser Part Number"
+F 6 "CL32A106KAULNNE" H 3200 3100 50  0001 C CNN "Part Number"
 	1    3200 3100
 	1    0    0    -1  
 $EndComp
@@ -193,7 +183,10 @@ P 3500 3450
 F 0 "C102" V 3248 3450 50  0000 C CNN
 F 1 "3.3nF" V 3339 3450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 3300 50  0001 C CNN
-F 3 "~" H 3500 3450 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/447/UPY-GPHC_X7R_6.3V-to-50V_18-1154002.pdf" H 3500 3450 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Yageo/CC0603KRX7R9BB332?qs=AgBp2OyFlx8UAnjSGzzw0Q%3D%3D" H 3500 3450 50  0001 C CNN "Mouser Link"
+F 5 "603-CC603KRX7R9BB332" H 3500 3450 50  0001 C CNN "Mouser Part Number"
+F 6 "CC0603KRX7R9BB332" H 3500 3450 50  0001 C CNN "Part Number"
 	1    3500 3450
 	0    1    1    0   
 $EndComp
@@ -201,10 +194,7 @@ Wire Wire Line
 	3650 3450 3850 3450
 Wire Wire Line
 	3200 3450 3200 3250
-Wire Wire Line
-	3200 3450 2350 3450
 Connection ~ 3200 3450
-Connection ~ 2350 3450
 Wire Wire Line
 	3200 3450 3350 3450
 $Comp
@@ -251,7 +241,10 @@ P 4950 3350
 F 0 "L101" V 5140 3350 50  0000 C CNN
 F 1 "L" V 5049 3350 50  0000 C CNN
 F 2 "Inductor_SMD:L_Coilcraft_XxL4020" H 4950 3350 50  0001 C CNN
-F 3 "~" H 4950 3350 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/597/xfl4020-270756.pdf" H 4950 3350 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Coilcraft/XFL4020-222MEB?qs=VJjuEbE9QBO2bwonVBK1EA%3D%3D" H 4950 3350 50  0001 C CNN "Mouser Link"
+F 5 "994-XFL4020-222MEB" H 4950 3350 50  0001 C CNN "Mouser Part Number"
+F 6 "XFL4020-222MEB" H 4950 3350 50  0001 C CNN "Part Number"
 	1    4950 3350
 	0    -1   -1   0   
 $EndComp
@@ -384,7 +377,10 @@ P 5650 3750
 F 0 "C103" H 5765 3796 50  0000 L CNN
 F 1 "22uF" H 5765 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5688 3600 50  0001 C CNN
-F 3 "~" H 5650 3750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/585/MLCC-1837944.pdf" H 5650 3750 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL21A226KQCLRNC?qs=xZ%2FP%252Ba9zWqYG0ePGTF%2FymQ%3D%3D" H 5650 3750 50  0001 C CNN "Mouser Link"
+F 5 "187-CL21A226KQCLRNC" H 5650 3750 50  0001 C CNN "Mouser Part Number"
+F 6 "CL21A226KQCLRNC" H 5650 3750 50  0001 C CNN "Part Number"
 	1    5650 3750
 	1    0    0    -1  
 $EndComp
@@ -396,4 +392,91 @@ Wire Wire Line
 Wire Wire Line
 	5650 4150 5650 3900
 Connection ~ 4750 4150
+$Comp
+L Device:LED D1
+U 1 1 5FC35AA3
+P 6200 3550
+F 0 "D1" V 6239 3432 50  0000 R CNN
+F 1 "LED" V 6148 3432 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm" H 6200 3550 50  0001 C CNN
+F 3 "~" H 6200 3550 50  0001 C CNN
+	1    6200 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5FC38121
+P 6200 3900
+F 0 "R1" H 6259 3946 50  0000 L CNN
+F 1 "470" H 6259 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6200 3900 50  0001 C CNN
+F 3 "~" H 6200 3900 50  0001 C CNN
+	1    6200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4150 6200 4150
+Wire Wire Line
+	6200 4150 6200 4000
+Connection ~ 5650 4150
+Wire Wire Line
+	6200 3800 6200 3700
+Wire Wire Line
+	6200 3400 6200 3350
+Wire Wire Line
+	6200 3350 5650 3350
+Wire Wire Line
+	1800 3450 3200 3450
+Wire Wire Line
+	1600 2700 3200 2700
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5FC7A207
+P 1100 4800
+F 0 "J1" H 1018 4375 50  0000 C CNN
+F 1 "Conn_01x04" H 1018 4466 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1100 4800 50  0001 C CNN
+F 3 "" H 1100 4800 50  0001 C CNN
+	1    1100 4800
+	-1   0    0    1   
+$EndComp
+Text Label 1650 2700 0    50   ~ 0
+Vin
+Wire Wire Line
+	1300 4900 1500 4900
+$Comp
+L power:GND #PWR0107
+U 1 1 5FC80C27
+P 1300 4800
+F 0 "#PWR0107" H 1300 4550 50  0001 C CNN
+F 1 "GND" V 1305 4672 50  0000 R CNN
+F 2 "" H 1300 4800 50  0001 C CNN
+F 3 "" H 1300 4800 50  0001 C CNN
+	1    1300 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5FC81944
+P 1300 4700
+F 0 "#PWR0108" H 1300 4550 50  0001 C CNN
+F 1 "+3.3V" V 1315 4828 50  0000 L CNN
+F 2 "" H 1300 4700 50  0001 C CNN
+F 3 "" H 1300 4700 50  0001 C CNN
+	1    1300 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5FC81F8A
+P 1300 4600
+F 0 "#PWR0109" H 1300 4350 50  0001 C CNN
+F 1 "GND" V 1305 4472 50  0000 R CNN
+F 2 "" H 1300 4600 50  0001 C CNN
+F 3 "" H 1300 4600 50  0001 C CNN
+	1    1300 4600
+	0    -1   -1   0   
+$EndComp
+Text Label 1500 4900 0    50   ~ 0
+Vin
 $EndSCHEMATC
