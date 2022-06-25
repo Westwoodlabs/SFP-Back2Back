@@ -3,9 +3,15 @@
 Bridges two small Form-factor Pluggable (SFP, Mini-GBIC) Modules together. This PCB makes it possible, for example, to switch from multi-mode to single-mode if one side has a built-in multi-mode transceiver, the range can be increased with a single-mode connection.  
 
 ![](.github/rendering.png)
+
+## PCB
 ![](.github/pcb0.jpeg)
 ![](.github/pcb1.jpeg)
 ![](.github/pcb2.jpeg)
+
+## Case
+![](.github/case0.png)
+![](.github/case1.png)
 
 
 ## Credits

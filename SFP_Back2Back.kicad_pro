@@ -393,7 +393,7 @@
       "idf": "",
       "netlist": "./",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SFP_Back2Back.step",
       "vmrl": "",
       "vrml": ""
     },
